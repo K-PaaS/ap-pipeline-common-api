@@ -19,11 +19,10 @@ ext {
 	springBootVersion = '1.5.3.RELEASE'
 	mysqlConnectorJavaVersion = '6.0.6'
 	commonsCodecVersion = '1.10'
-	appVersion = "1.0.3"
 }
 
 jar {
-	baseName = "delivery-pipeline-common-api-${appVersion}"
+	baseName = "ap-pipeline-common-api"
 }
 
 sourceCompatibility = 1.8
